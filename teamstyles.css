@@ -70,14 +70,14 @@ body {
 
 #founder-subtitle {
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 250;
     margin: 10px 10px;
     margin-bottom: 20px;
 }
 
 #founder-image {
     width: 60vh;
-    box-shadow: 2px 6px 4px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 1200px) {
