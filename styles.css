@@ -1,5 +1,6 @@
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -54,7 +55,7 @@ body {
 }
 
 #title-container {
-    padding-top: 13vw;
+    padding-top: 17vw;
     padding-left: 6vw;
 }
 
@@ -108,4 +109,45 @@ body {
     text-decoration: none;
     font-size: 1.25rem;
     cursor: pointer;
+}
+
+#about-container {
+    padding-top: 6vw;
+    padding-left: 6vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subtitle {
+    font-size: 3.5rem;
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.list-container {
+    padding-left: 3vw;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.list-text {
+    font-size: 2.25rem;
+    font-weight: 200;
+
+}
+
+#content-container {
+    padding-top: 1vw;
+    padding-left: 6vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+a {
+    color: black;
 }
