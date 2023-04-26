@@ -54,8 +54,8 @@ body {
 }
 
 #title-container {
-    padding-top: 12vw;
-    padding-left: 5vw;
+    padding-top: 13vw;
+    padding-left: 6vw;
 }
 
 #homepage-title {
@@ -108,8 +108,4 @@ body {
     text-decoration: none;
     font-size: 1.25rem;
     cursor: pointer;
-}
-
-#instructor-image{
-    border-radius: 100px;
 }
