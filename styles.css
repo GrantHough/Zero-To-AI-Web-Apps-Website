@@ -55,7 +55,7 @@ body {
 }
 
 #title-container {
-    padding-top: 17vw;
+    padding-top: calc(17vw + 25px);
     padding-left: 6vw;
 }
 
@@ -78,7 +78,7 @@ body {
 #learn-more {
     text-align: center;
     font-size: 1.25rem;
-    margin-top: 15vw;
+    margin-top: 14.5vw;
     cursor: pointer;
 }
 
