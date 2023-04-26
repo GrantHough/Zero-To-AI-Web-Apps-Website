@@ -72,11 +72,12 @@ body {
     font-size: 2rem;
     font-weight: 250;
     margin: 10px 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #founder-image {
     width: 60vh;
+    max-width: 70vw;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -84,7 +85,7 @@ body {
     #founder-profile {
         margin-left: 16vh;
         margin-right: 16vh;
-        margin-top: 3vh;
+        margin-top: 1vh;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -107,9 +108,65 @@ body {
     font-size: 1.5rem;
     font-weight: 200;
     padding: 0px 20px;
-    margin: 6vh;
+    margin: 2vh 6vh;
 }
 
 #founder-description a {
     color: black;
+}
+
+#instructors-container {
+    text-align: center;
+    position: relative;
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#instructors-title {
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 15px 30px;
+}
+
+@media (min-width: 1200px) {
+    #instructor-bios {
+        margin: 10px 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    #instructor-bios {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.instructor-bio {
+    padding: 0 2.5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructor-name {
+    font-size: 1.5rem;
+    font-weight: 250;
+}
+
+.instructor-image {
+    width: 20vh;
+    border-radius: 100000px;
+}
+
+.instructor-bio {
+    font-size: 1.25rem;
+    font-weight: 200;
 }

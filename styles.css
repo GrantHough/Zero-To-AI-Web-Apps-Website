@@ -56,7 +56,6 @@ body {
 #title-container {
     padding-top: 12vw;
     padding-left: 5vw;
-    padding-right: 10vw;
 }
 
 #homepage-title {
@@ -78,7 +77,6 @@ body {
 #learn-more {
     text-align: center;
     font-size: 1.25rem;
-    font-weight: 200;
     margin-top: 15vw;
     cursor: pointer;
 }
@@ -110,4 +108,8 @@ body {
     text-decoration: none;
     font-size: 1.25rem;
     cursor: pointer;
+}
+
+#instructor-image{
+    border-radius: 100px;
 }
