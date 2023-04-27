@@ -1,5 +1,6 @@
 html {
     overflow-x: hidden;
+    background-color: rgb(253, 253, 253);
 }
 
 body {
@@ -14,7 +15,7 @@ body {
     z-index: 3;
     width: 100%; 
     height: 56px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
     padding: 10px;
     backdrop-filter: blur(12px);
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
