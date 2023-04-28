@@ -194,6 +194,7 @@ p a {
         border-radius: 12px;
         box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
         align-self: center;
+        margin-top: 2.5vh;
     }
     
 }
