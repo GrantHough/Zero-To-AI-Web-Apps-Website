@@ -164,6 +164,8 @@ p a {
     padding-top: 1vh;
     padding-left: 3vw;
     padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    padding-bottom: 1vh;
 
     display: flex;
     flex-direction: column;
@@ -173,6 +175,7 @@ p a {
     padding-top: 1vh;
     padding-right: 3vw;
     padding-left: 1.5vw;
+    padding-bottom: 1vh;
 
     display: flex;
     flex-direction: column;
