@@ -217,6 +217,14 @@ p a {
         box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
         margin: 4vh;
     }
+
+    #bottom-horizontal-container {
+        display: flex;
+        flex-direction: row;
+        align-items: first baseline;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
     #first-image {
         margin-top: 22vh;
     }
