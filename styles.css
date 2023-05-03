@@ -58,6 +58,7 @@ body {
 #title-container {
     padding-top: calc(17vw + 25px);
     padding-left: 6vw;
+    padding-right: 2vw;
 }
 
 #homepage-title {
@@ -199,7 +200,13 @@ p a {
         align-self: center;
         margin-top: 2.5vh;
     }
-    
+    #bottom-horizontal-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 4vw;
+        margin-right: 2vw;
+    }
 }
 
 @media (min-width: 1200px) {
