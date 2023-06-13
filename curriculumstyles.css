@@ -1,0 +1,143 @@
+html {
+    overflow-x: hidden;
+    background-color: rgb(253, 253, 253);
+}
+
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'Chivo', sans-serif;
+    overflow-x: hidden;
+}
+
+#header {
+    position: absolute;
+    z-index: 3;
+    width: 100%; 
+    height: 56px;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+    margin-top: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header-pages {
+    margin-left: 20px;
+}
+
+#header a {
+    color: black;
+    font-weight: 200;
+    font-size: 1.25rem;
+    letter-spacing: 0.175rem;
+    margin: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+#header a.bold {
+    font-weight: 400;
+}
+
+#main-container {
+    position: relative;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+p a {
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#curriculum-title {
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0px 30px;
+}
+
+#curriculum-description {
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 0px 20px;
+    margin: 0vh 2vh;
+    margin-top: 2vh;
+}
+
+#curriculum-description a {
+    color: black;
+}
+
+@media (min-width: 1000px) {
+    #curriculum-title-container {
+        margin-top:  6vh;
+        padding: 0 6vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .curriculum-day-container {
+        margin-top: 2vh;
+        padding: 0 6vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    #curriculum-title-container {
+        margin-top: 5.5vh;
+        padding: 0 2vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.curriculum-day-container {
+    padding-top: -0.75vh;
+    padding-left: 4vw;
+    padding-right: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subtitle {
+    font-size: 2.75rem;
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.list-container {
+    padding: 0 3vw;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.list-text {
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-top: 3vh;
+}
+
+li a {
+    color: black;
+}
+
+/* #universal-resources-container {
+    margin-top: -0.75vh;
+} */
