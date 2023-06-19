@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero To AI - Day 2 Example</title>
+</head>
+<body>
+    Today, we began covering JavaScript basics. Below is an example code segment that synthesizes the main topics we covered today. It combines variables, conditional statements, and functions to create a program centered around gamifying walking. Check the console to see what this code results in.
+    <pre>
+
+        //variable for total # of miles walked
+        let totalMilesWalked = 0;
+        
+        //variable for total user points
+        let totalPoints = 0;
+
+        //defining the function to input a walk
+        //takes in miles walked and how many hills the walk had
+        function walk(miles, hills) {
+            //adds miles walked to total
+            let walkPoints = 0;
+            totalMilesWalked = totalMilesWalked + miles;
+
+            //if there were hills on the walk 
+            if (hills > 10) {
+                walkPoints = totalPoints + 50 + 100 * miles;
+                totalPoints = walkPoints + totalPoints;
+            } else if (hills > 5) {
+                walkPoints = totalPoints + 25 + 75 * miles;
+                totalPoints = walkPoints + totalPoints;
+            } else {
+                walkPoints = totalPoints + 50 * miles;
+                totalPoints = walkPoints + totalPoints;
+                
+            }
+
+            return walkPoints;
+        }
+
+        console.log(totalPoints);
+        walk(3, 2);
+        console.log(totalPoints);
+        console.log(walk(4, 11));
+        console.log(totalPoints);
+        console.log(walk(5, 6));
+        console.log(totalPoints);
+
+    </pre>
+
+    <script src="example.js"></script>
+</body>
+</html>
