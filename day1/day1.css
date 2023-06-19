@@ -1,0 +1,21 @@
+h2 {
+    color: gray;
+}
+
+#title-container {
+    padding: 20px;
+}
+
+#description-container {
+    margin-left: 20px;
+}
+
+.list-item {
+    color: gray
+}
+
+#square-div {
+    background-color: blue;
+    width: 256px;
+    height: 256px;
+}
