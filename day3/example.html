@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero To AI - Day 3 Example</title>
+</head>
+<body>
+    <p id="sentence-1">I am sentence 1.</p>
+    <p id="sentence-2">I am sentence 2.</p>
+    <p id="sentence-3">I am sentence 3.</p>
+    
+    Today, we continued with JavaScript basics, covering topics such as Arrays, For Loops, and Query Selectors. Here is an example of a code segment that takes advantage of everything taught on Day 3. Check the console for the results of the below code segment.
+    
+
+    <pre>
+        //Get HTML elements
+        let element1 = document.querySelector("#sentence-1");
+        let element2 = document.querySelector("#sentence-2");
+        let element3 = document.querySelector("#sentence-3");
+
+        //Get the actual text (innerHTML)
+        let sentence1 = element1.innerHTML;
+        let sentence2 = element2.innerHTML;
+        let sentence3 = element3.innerHTML;
+
+        //Create array of sentences
+        let sentenceArray = [];
+
+        //Set values to the sentences
+        sentenceArray[0] = sentence1;
+        sentenceArray[1] = sentence2;
+        sentenceArray[2] = sentence3;
+
+        //Loop through the array
+        for (let i = 0; i < sentenceArray.length; i++) {
+            //Log the index
+            console.log(i);
+
+            //Log the sentence
+            console.log(sentenceArray[i]);
+        }
+    </pre>
+
+    <script src="example.js"></script>
+</body>
+</html>
