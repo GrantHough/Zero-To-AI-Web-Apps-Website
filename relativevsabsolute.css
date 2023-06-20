@@ -1,0 +1,33 @@
+#abs-text {
+    font-size: 36px;
+}
+
+#rel-text {
+    font-size: 2em;
+}
+
+#rel-text2 {
+    font-size: 2vw;
+}
+
+#abs-div {
+    outline: 2px black solid;
+    width: 256px;
+    height: 256px;
+}
+
+#rel-div {
+    outline: 2px black solid;
+    width: 25vh;
+    height: 25vh;
+}
+
+#rel-div2 {
+    outline: 2px black solid;
+    width: 25vw;
+    height: 25vw;
+}
+
+div {
+    margin-top: 20px;
+}
