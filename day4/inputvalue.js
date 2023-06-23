@@ -10,22 +10,24 @@ let fileButton = document.querySelector("#file-button");
 let rangeButton = document.querySelector("#range-button");
 let colorButton = document.querySelector("#color-button");
 
-checkboxButton.addEventListener("click", function() {
+checkboxButton.addEventListener("click", () => {
     console.log(checkbox.checked);
 });
 
-dateButton.addEventListener("click", function() {
+dateButton.addEventListener("click", () => {
     console.log(date.value);
 });
 
-fileButton.addEventListener("click", function() {
+fileButton.addEventListener("click", () => {
     console.log(file.value);
 });
 
-rangeButton.addEventListener("click", function() {
+rangeButton.addEventListener("click", () => {
     console.log(range.value);
 });
 
-colorButton.addEventListener("click", function() {
+colorButton.addEventListener("click", () => {
     console.log(color.value);
 });
+
+
