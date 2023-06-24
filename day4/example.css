@@ -19,3 +19,11 @@ hr {
     width: 100%;
     margin: 20px 0;
 }
+
+span {
+    color: blue;
+}
+
+#second-paragraph {
+    margin: 50px;
+}   

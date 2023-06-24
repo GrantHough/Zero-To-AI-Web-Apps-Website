@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero To AI - Day 4 Example</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+    <div>
+        <h1>Values of Input Elements</h1>
+        <p>Try changing the different inputs. Then, press their associated button and check the console to see how the value changes.</p>
+        <hr>
+        <input type="checkbox" id="checkbox">
+        <button id="checkbox-button">console.log the checkbox "checked" attribute</button>
+        <hr>
+        <input type="date" id="date">
+        <button id="date-button">console.log the date "value" attribute</button>
+        <hr>
+        <input type="file" id="file">
+        <button id="file-button">console.log the file "value" attribute</button>
+        <hr>
+        <input type="range" id="range">
+        <button id="range-button">console.log the range "value" attribute</button>
+        <hr>
+        <input type="color" id="color">
+        <button id="color-button">console.log the color "value" attribute</button>
+        <hr>
+    </div>
+
+    <div id="text">
+        <p>Here is an example of using a <span>span element</span>, which displays inline, to change text styling inside a paragraph.</p>
+        <p id="second-paragraph">Now, I'm on a new paragraph element. It displays underneath the first paragraph because the paragraph tag displays block by default. And because it displays block, I can set a width of 50% and a margin of 50px</p>
+    </div>
+    <hr>
+
+    <button id="disappear">Click me to make the text above disappear</button>
+    <button id="reappear">Click me to make the text above reappear</button>
+
+    <hr>
+    <h1>Below is the CSS, and JavaScript for this webpage</h1>
+    <h3>For HTML, just inspect element.</h3>
+    <hr>
+    
+    <h2>CSS</h2>
+    <pre>
+        body {
+            display:flex;
+            flex-direction: column;
+            align-items:flex-start;
+            padding: 0px 20px;
+        }
+        
+        input {
+            margin: 40 0px;
+        }
+        
+        button {
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        
+        hr {
+            outline: 0px black solid;
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        span {
+            color: blue;
+        }
+        
+        #second-paragraph {
+            margin: 50px;
+        }   
+    </pre>
+    <hr>
+
+    <h2>JavaScript</h2>
+    <pre>
+        let checkbox = document.querySelector("#checkbox");
+        let date = document.querySelector("#date");
+        let file = document.querySelector("#file");
+        let range = document.querySelector("#range");
+        let color = document.querySelector("#color");
+
+        let checkboxButton = document.querySelector("#checkbox-button");
+        let dateButton = document.querySelector("#date-button");
+        let fileButton = document.querySelector("#file-button");
+        let rangeButton = document.querySelector("#range-button");
+        let colorButton = document.querySelector("#color-button");
+
+        let disappear = document.querySelector("#disappear");
+        let reappear = document.querySelector("#reappear");
+        let text = document.querySelector("#text");
+
+        // These use arrow functions, they're just a shorter way of declaring a function
+
+        checkboxButton.addEventListener("click", () => {
+            console.log(checkbox.checked);
+        });
+
+        dateButton.addEventListener("click", () => {
+            console.log(date.value);
+        });
+
+        fileButton.addEventListener("click", () => {
+            console.log(file.value);
+        });
+
+        rangeButton.addEventListener("click", () => {
+            console.log(range.value);
+        });
+
+        colorButton.addEventListener("click", () => {
+            console.log(color.value);
+        });
+
+
+        disappear.addEventListener("click", function() {
+            text.style.display = "none";
+        })
+
+        reappear.addEventListener("click", function() {
+            text.style.display = "block";
+        })
+    </pre>
+    <hr>
+</body>
+<script src="example.js"></script>
+</html>
