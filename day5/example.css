@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+hr {
+    outline: 0px black solid;
+    width: 100%;
+    margin: 20px 0;
+}
